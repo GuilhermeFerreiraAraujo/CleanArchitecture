@@ -1,0 +1,5 @@
+*.dll
+*.exe
+*.pdb
+Cgi.Appmar.Web/Cgi.Appmar.Web/bin/
+Cgi.Appmar.Web/Cgi.Appmar.Web/obj/
