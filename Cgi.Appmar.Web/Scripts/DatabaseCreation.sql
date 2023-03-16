@@ -9,11 +9,52 @@ GO
 USE APPMAR;
 GO
 
+CREATE TABLE ContactTypes(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(150) NOT NULL,
+	Dsc NVARCHAR(200) NULL,
+	IsActive BIT NOT NULL
+);
+GO
+
+CREATE Table Users(
+	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	Name NVARCHAR(150) NOT NULL,
+	Email NVARCHAR(150) NOT NULL,
+	PasswordHash NVARCHAR(150) NOT NULL,
+
+	CreateDate DATETIME2 NOT NULL,
+	CreatedBy INT NOT NULL,
+	UpdateDate DATETIME2 NULL,
+	UpdateBy INT NULL,
+	CONSTRAINT fk_users_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_users_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
+)
+GO
+
+CREATE Table Contacts(
+	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	EntityId INT NOT NULL,
+	EntityTypeId INT NOT NULL,
+	ContactTypeId INT NOT NULL,
+	Value NVARCHAR(150)NOT NULL,
+	IsMainContact BIT NOT NULL,
+	CreateDate DATETIME2 NOT NULL,
+	CreatedBy INT NOT NULL,
+	UpdateDate DATETIME2 NULL,
+	UpdateBy INT NULL,
+	CONSTRAINT fk_contacts_contacttypes FOREIGN KEY (ContactTypeId) REFERENCES ContactTypes(Id),
+	CONSTRAINT fk_contacts_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_contacts_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
+
+);
+GO
+
 CREATE TABLE VersselTypes(
 	Id INT NOT NULL PRIMARY KEY,
 	Name NVARCHAR(150) NOT NULL,
 	Dsc NVARCHAR(200) NULL,
-	Former NVARCHAR(200) NULL
+	IsActive BIT NOT NULL
 );
 GO
 
@@ -27,6 +68,8 @@ GO
 CREATE TABLE Vessels(
 	Id int IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	Name NVARCHAR(100) NOT NULL,
+	Former NVARCHAR(200) NULL,
+
 	VesselTypeId INT NULL,
 	RegistrationDate DATETIME2 NULL,
 	VesselStatusId INT NULL,
@@ -63,17 +106,14 @@ CREATE TABLE Vessels(
 	Notes NVARCHAR(500) NULL,
 	Remarks NVARCHAR(500) NULL,
 
+	CreateDate DATETIME2 NOT NULL,
+	CreatedBy INT NOT NULL,
+	UpdateDate DATETIME2 NULL,
+	UpdateBy INT NULL
+
 	CONSTRAINT fk_vessels_vesseltypes FOREIGN KEY (VesselTypeId) REFERENCES VersselTypes(Id),
 	CONSTRAINT fk_vessels_vesselstatus FOREIGN KEY (VesselStatusId) REFERENCES VersselStatus(Id)
 );
-GO
-
-CREATE Table Users(
-	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
-	Name NVARCHAR(150) NOT NULL,
-	Email NVARCHAR(150) NOT NULL,
-	PasswordHash NVARCHAR(150) NOT NULL
-)
 GO
 
 CREATE Table Roles(
