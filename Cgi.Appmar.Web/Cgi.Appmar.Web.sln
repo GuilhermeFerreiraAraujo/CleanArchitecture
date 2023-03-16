@@ -5,6 +5,16 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Web", "Cgi.Appmar.Web\Cgi.Appmar.Web.csproj", "{01EBD6FE-4958-4F0A-9542-5AA7BEC89613}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Models", "Cgi.Appmar.Models\Cgi.Appmar.Models.csproj", "{C6CC3BF9-236D-46CF-98D9-6E836942C2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Repositories", "Cgi.Appmar.Repositories\Cgi.Appmar.Repositories.csproj", "{B891B1F8-017B-45CB-B3C4-030A1C06DAB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Interfaces", "Cgi.Appmar.Interfaces\Cgi.Appmar.Interfaces.csproj", "{9339DDBC-5B17-4890-B7AC-0AE3DB9A0F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Services", "Cgi.Appmar.Services\Cgi.Appmar.Services.csproj", "{DD2C7FA1-64EC-4CB3-9217-8F492F633613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Utils", "Cgi.Appmar.Utils\Cgi.Appmar.Utils.csproj", "{08192049-8DDB-4176-BF8F-BD311D69141D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{01EBD6FE-4958-4F0A-9542-5AA7BEC89613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01EBD6FE-4958-4F0A-9542-5AA7BEC89613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01EBD6FE-4958-4F0A-9542-5AA7BEC89613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CC3BF9-236D-46CF-98D9-6E836942C2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CC3BF9-236D-46CF-98D9-6E836942C2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CC3BF9-236D-46CF-98D9-6E836942C2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CC3BF9-236D-46CF-98D9-6E836942C2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B891B1F8-017B-45CB-B3C4-030A1C06DAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B891B1F8-017B-45CB-B3C4-030A1C06DAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B891B1F8-017B-45CB-B3C4-030A1C06DAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B891B1F8-017B-45CB-B3C4-030A1C06DAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9339DDBC-5B17-4890-B7AC-0AE3DB9A0F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9339DDBC-5B17-4890-B7AC-0AE3DB9A0F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9339DDBC-5B17-4890-B7AC-0AE3DB9A0F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9339DDBC-5B17-4890-B7AC-0AE3DB9A0F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2C7FA1-64EC-4CB3-9217-8F492F633613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2C7FA1-64EC-4CB3-9217-8F492F633613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2C7FA1-64EC-4CB3-9217-8F492F633613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2C7FA1-64EC-4CB3-9217-8F492F633613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08192049-8DDB-4176-BF8F-BD311D69141D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08192049-8DDB-4176-BF8F-BD311D69141D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08192049-8DDB-4176-BF8F-BD311D69141D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08192049-8DDB-4176-BF8F-BD311D69141D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
