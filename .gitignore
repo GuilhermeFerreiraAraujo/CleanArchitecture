@@ -3,3 +3,13 @@
 *.pdb
 Cgi.Appmar.Web/Cgi.Appmar.Web/bin/
 Cgi.Appmar.Web/Cgi.Appmar.Web/obj/
+Cgi.Appmar.Web/Cgi.Appmar.Repositories/bin/
+Cgi.Appmar.Web/Cgi.Appmar.Services/bin/
+Cgi.Appmar.Web/Cgi.Appmar.Interfaces/bin/
+Cgi.Appmar.Web/Cgi.Appmar.Interfaces/obj/
+Cgi.Appmar.Web/Cgi.Appmar.Services/obj/
+Cgi.Appmar.Web/Cgi.Appmar.Repositories/obj/
+Cgi.Appmar.Web/Cgi.Appmar.Utils/bin/
+Cgi.Appmar.Web/Cgi.Appmar.Utils/obj/
+Cgi.Appmar.Web/Cgi.Appmar.Models/bin/
+Cgi.Appmar.Web/Cgi.Appmar.Models/obj/
