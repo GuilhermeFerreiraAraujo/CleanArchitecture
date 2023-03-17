@@ -1,10 +1,5 @@
-
 function Layout() {
-  return (
-    <>
-      
-    </>
-  );
+  return <></>
 }
 
-export default Layout;
+export default Layout

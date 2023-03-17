@@ -1,14 +1,5 @@
-import './Textbox.scss';
+import './Textbox.scss'
 
-
-function Textbox()
-{
-
-
-    return (<></>)
-
+function Textbox() {
+  return <></>
 }
-
-
-
-
