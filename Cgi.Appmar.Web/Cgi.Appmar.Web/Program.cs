@@ -2,6 +2,7 @@ using Cgi.Appmar.Interfaces.Repositories;
 using Cgi.Appmar.Interfaces.Services;
 using Cgi.Appmar.Repositories;
 using Cgi.Appmar.Services;
+using Cgi.Appmar.Web.Middlewares;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -35,6 +36,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.MapControllers();
 
