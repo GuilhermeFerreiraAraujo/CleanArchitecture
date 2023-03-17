@@ -1,4 +1,6 @@
 ﻿
+using Cgi.Appmar.Models.Entities;
+
 public partial class VersselType
 {
     public int Id { get; set; }

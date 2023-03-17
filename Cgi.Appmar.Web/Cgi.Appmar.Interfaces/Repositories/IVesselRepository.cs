@@ -1,7 +1,8 @@
-﻿namespace Cgi.Appmar.Interfaces.Repositories
+﻿using Cgi.Appmar.Models.Entities;
+
+namespace Cgi.Appmar.Interfaces.Repositories
 {
-    public interface IVesselRepository
+    public interface IVesselRepository : IBaseRepository<Vessel>
     {
-        IEnumerable<Vessel> GetVessels();
     }
 }

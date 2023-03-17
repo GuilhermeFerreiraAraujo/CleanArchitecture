@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Cgi.Appmar.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
 public partial class AppmarContext : DbContext
 {
