@@ -2,5 +2,6 @@
 {
     public interface IVesselRepository
     {
+        IEnumerable<Vessel> GetVessels();
     }
 }

@@ -20,7 +20,7 @@ namespace Cgi.Appmar.Web.Controllers
         [HttpGet(Name = "GetVessels")]
         public IEnumerable<Vessel> GetVessels()
         {
-            return null;
+            return vesselServices.GetVessels(); 
         }
     }
 }

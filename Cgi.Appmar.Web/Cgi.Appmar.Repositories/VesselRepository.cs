@@ -4,9 +4,16 @@ namespace Cgi.Appmar.Repositories
 {
     public class VesselRepository : IVesselRepository
     {
-        public VesselRepository()
+
+        private readonly AppmarContext context;
+        public VesselRepository(AppmarContext _context)
         {
-            
+            context = _context;
+        }
+
+        public IEnumerable<Vessel> GetVessels()
+        {
+            return context.Vessels.ToList();
         }
     }
 }

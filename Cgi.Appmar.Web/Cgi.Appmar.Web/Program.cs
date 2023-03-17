@@ -14,6 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<AppmarContext, AppmarContext>();
 builder.Services.AddTransient<IVesselServices, VesselServices>();
 builder.Services.AddTransient<IVesselRepository, VesselRepository>();
 

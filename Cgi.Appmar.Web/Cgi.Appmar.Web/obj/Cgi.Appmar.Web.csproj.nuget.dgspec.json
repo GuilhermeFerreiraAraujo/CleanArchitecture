@@ -27,7 +27,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Models\\Cgi.Appmar.Models.csproj": {
+                "projectPath": "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Models\\Cgi.Appmar.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cgi.Appmar.Models\Cgi.Appmar.Models.csproj" />
+  </ItemGroup>
+
 </Project>

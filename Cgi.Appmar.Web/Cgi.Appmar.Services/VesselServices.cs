@@ -5,12 +5,16 @@ namespace Cgi.Appmar.Services
 {
     public class VesselServices : IVesselServices
     {
-
         private readonly IVesselRepository vesselRepository;
 
         public VesselServices(IVesselRepository _vesselRespotirory)
         {
             vesselRepository = _vesselRespotirory;
+        }
+
+        public IEnumerable<Vessel> GetVessels()
+        {
+            return vesselRepository.GetVessels();
         }
     }
 }

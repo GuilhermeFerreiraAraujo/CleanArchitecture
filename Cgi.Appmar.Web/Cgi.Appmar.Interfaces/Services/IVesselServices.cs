@@ -2,5 +2,6 @@
 {
     public interface IVesselServices
     {
+        IEnumerable<Vessel> GetVessels();
     }
 }
