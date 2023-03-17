@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Cgi.Appmar.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cgi.Appmar.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cgi.Appmar.Interfaces.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Cgi.Appmar.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Cgi.Appmar.Interfaces/Cgi.Appmar.Interfaces.csproj",
+      "msbuildProject": "../Cgi.Appmar.Interfaces/Cgi.Appmar.Interfaces.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Cgi.Appmar.Interfaces >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\guilherme.d.ferreira\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Interfaces\\Cgi.Appmar.Interfaces.csproj": {
+              "projectPath": "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Interfaces\\Cgi.Appmar.Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

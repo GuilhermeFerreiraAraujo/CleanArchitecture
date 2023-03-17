@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Cgi.Appmar.Web.Models;
-
-public partial class Role
+﻿
+public partial class Permission
 {
     public int Id { get; set; }
 

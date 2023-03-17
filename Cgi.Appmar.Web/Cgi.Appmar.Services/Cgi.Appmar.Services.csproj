@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cgi.Appmar.Interfaces\Cgi.Appmar.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

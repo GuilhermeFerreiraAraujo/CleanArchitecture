@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Cgi.Appmar.Web.Models;
-
+﻿
 public partial class Vessel
 {
     public int Id { get; set; }

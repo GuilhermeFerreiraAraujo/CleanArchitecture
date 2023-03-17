@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Cgi.Appmar.Web.Models;
+﻿
 
 public partial class ContactType
 {

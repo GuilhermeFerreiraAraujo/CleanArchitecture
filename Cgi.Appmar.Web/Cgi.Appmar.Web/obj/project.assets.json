@@ -1238,6 +1238,56 @@
             "rid": "win"
           }
         }
+      },
+      "Cgi.Appmar.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cgi.Appmar.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cgi.Appmar.Interfaces.dll": {}
+        }
+      },
+      "Cgi.Appmar.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Cgi.Appmar.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cgi.Appmar.Models.dll": {}
+        }
+      },
+      "Cgi.Appmar.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Cgi.Appmar.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cgi.Appmar.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cgi.Appmar.Repositories.dll": {}
+        }
+      },
+      "Cgi.Appmar.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Cgi.Appmar.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cgi.Appmar.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cgi.Appmar.Services.dll": {}
+        }
       }
     }
   },
@@ -3899,10 +3949,34 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Cgi.Appmar.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Cgi.Appmar.Interfaces/Cgi.Appmar.Interfaces.csproj",
+      "msbuildProject": "../Cgi.Appmar.Interfaces/Cgi.Appmar.Interfaces.csproj"
+    },
+    "Cgi.Appmar.Models/1.0.0": {
+      "type": "project",
+      "path": "../Cgi.Appmar.Models/Cgi.Appmar.Models.csproj",
+      "msbuildProject": "../Cgi.Appmar.Models/Cgi.Appmar.Models.csproj"
+    },
+    "Cgi.Appmar.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Cgi.Appmar.Repositories/Cgi.Appmar.Repositories.csproj",
+      "msbuildProject": "../Cgi.Appmar.Repositories/Cgi.Appmar.Repositories.csproj"
+    },
+    "Cgi.Appmar.Services/1.0.0": {
+      "type": "project",
+      "path": "../Cgi.Appmar.Services/Cgi.Appmar.Services.csproj",
+      "msbuildProject": "../Cgi.Appmar.Services/Cgi.Appmar.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Cgi.Appmar.Interfaces >= 1.0.0",
+      "Cgi.Appmar.Models >= 1.0.0",
+      "Cgi.Appmar.Repositories >= 1.0.0",
+      "Cgi.Appmar.Services >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
       "Microsoft.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.4",
@@ -3937,7 +4011,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Interfaces\\Cgi.Appmar.Interfaces.csproj": {
+              "projectPath": "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Interfaces\\Cgi.Appmar.Interfaces.csproj"
+            },
+            "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Models\\Cgi.Appmar.Models.csproj": {
+              "projectPath": "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Models\\Cgi.Appmar.Models.csproj"
+            },
+            "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Repositories\\Cgi.Appmar.Repositories.csproj": {
+              "projectPath": "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Repositories\\Cgi.Appmar.Repositories.csproj"
+            },
+            "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Services\\Cgi.Appmar.Services.csproj": {
+              "projectPath": "C:\\Git\\Cgi.Appmar.Web\\Cgi.Appmar.Services\\Cgi.Appmar.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
