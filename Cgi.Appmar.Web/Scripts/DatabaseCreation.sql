@@ -9,6 +9,14 @@ GO
 USE APPMAR;
 GO
 
+
+CREATE TABLE EntityTypes(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NULL
+)
+GO
+
 CREATE TABLE ContactTypes(
 	Id INT NOT NULL PRIMARY KEY,
 	Name NVARCHAR(150) NOT NULL,
@@ -32,6 +40,34 @@ CREATE Table Users(
 )
 GO
 
+
+CREATE TABLE Countries(
+	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL
+)
+GO
+
+CREATE TABLE Addresses(
+	Id INT IDENTITY(1, 1) PRIMARY KEY,
+	EntityId INT NOT NULL,
+	EntityTypeId INT NOT NULL,
+	Address1 NVARCHAR(200) NOT NULL,
+	Address2 NVARCHAR(200) NULL,
+	Address3 NVARCHAR(200) NULL,
+	CountryId INT NOT NULL,
+	City NVARCHAR(100),
+	PostalCode NVARCHAR(100),
+	IsMainAddress BIT NOT NULL,
+	CreateDate DATETIME2 NOT NULL,
+	CreatedBy INT NOT NULL,
+	UpdateDate DATETIME2 NULL,
+	UpdateBy INT NULL
+
+	CONSTRAINT fk_addresses_countries FOREIGN KEY (CountryId) REFERENCES Countries(iD),
+	CONSTRAINT fk_addresses_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_addresses_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
+);
+
 CREATE Table Contacts(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	EntityId INT NOT NULL,
@@ -46,8 +82,7 @@ CREATE Table Contacts(
 	CONSTRAINT fk_contacts_contacttypes FOREIGN KEY (ContactTypeId) REFERENCES ContactTypes(Id),
 	CONSTRAINT fk_contacts_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
 	CONSTRAINT fk_contacts_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
-
-);
+)
 GO
 
 CREATE TABLE VersselTypes(
