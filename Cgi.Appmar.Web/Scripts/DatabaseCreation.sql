@@ -9,6 +9,20 @@ GO
 USE APPMAR;
 GO
 
+CREATE TABLE ActivityTypes(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NULL,
+	IsActive BIT NOT NULL
+)
+GO
+
+CREATE TABLE ActivityStatus(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100),
+	Dsc NVARCHAR(200)
+)
+GO
 
 CREATE TABLE EntityTypes(
 	Id INT NOT NULL PRIMARY KEY,
@@ -30,7 +44,8 @@ CREATE Table Users(
 	Name NVARCHAR(150) NOT NULL,
 	Email NVARCHAR(150) NOT NULL,
 	PasswordHash NVARCHAR(150) NOT NULL,
-
+	LastLogin DATETIME2 NULL,
+	IsActive BIT NOT NULL,
 	CreateDate DATETIME2 NOT NULL,
 	CreatedBy INT NOT NULL,
 	UpdateDate DATETIME2 NULL,
@@ -39,7 +54,6 @@ CREATE Table Users(
 	CONSTRAINT fk_users_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
 )
 GO
-
 
 CREATE TABLE Countries(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
@@ -148,19 +162,67 @@ CREATE TABLE Vessels(
 
 	CONSTRAINT fk_vessels_vesseltypes FOREIGN KEY (VesselTypeId) REFERENCES VersselTypes(Id),
 	CONSTRAINT fk_vessels_vesselstatus FOREIGN KEY (VesselStatusId) REFERENCES VersselStatus(Id)
-);
+)
 GO
+
+
+
+CREATE TABLE Activities(
+	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	VesselId INT NOT NULL,
+	RequestId INT NOT NULL,
+	ActivityTypeId INT NOT NULL,
+	ActivityStatusId INT NOT NULL,
+	CsrDocNum NVARCHAR(200) NULL,
+	RejectDesc NVARCHAR(200) NULL,
+	RequestedOrgId INT NULL,
+	CreatedBy INT NOT NULL,
+	CreatedDate DATETIME2 NOT NULL,
+	UpdateBy INT NULL,
+	UbdatedDate DATETIME2 NULL,
+	ClosedBy INT NULL,
+	EndDate DATETIME2 NULL,
+
+	CONSTRAINT fk_activities_vessels FOREIGN KEY (VesselId) REFERENCES Vessels(Id),
+	CONSTRAINT fk_activities_activitytype FOREIGN KEY (ActivityTypeId) REFERENCES ActivityTypes(Id),
+	CONSTRAINT fk_activities_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_activities_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
+)
+GO
+
 
 CREATE Table Roles(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	Name NVARCHAR(150) NOT NULL,
 	Dsc NVARCHAR(200) NULL
-);
+)
+GO
+
+CREATE Table Categories(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NULL
+)
 GO
 
 CREATE Table Permissions(
 	Id INT NOT NULL PRIMARY KEY,
 	Name NVARCHAR(150) NOT NULL,
-	Dsc NVARCHAR(200) NULL
-);
+	Dsc NVARCHAR(200) NULL,
+	CategoryId INT NOT NULL,
+	CONSTRAINT fk_permissions_categories FOREIGN KEY (CategoryId) REFERENCES Categories(Id)
+)
 GO
+
+
+CREATE TABLE RolesPermissions(
+	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	RoleId INT NOT NULL,
+	PermissionId INT NOT NULL,
+	CONSTRAINT fk_rolespermissions_roles FOREIGN KEY (RoleId) REFERENCES Roles(Id),
+	CONSTRAINT fk_rolespermissions_permissions FOREIGN KEY (PermissionId) REFERENCES Permissions(Id)
+)
+GO
+
+
+
