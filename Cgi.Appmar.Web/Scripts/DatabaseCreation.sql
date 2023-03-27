@@ -302,14 +302,23 @@ GO
 
 CREATE TABLE Organizations(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
-	OrganizationId INT NOT NULL,
+	OrganizationTypeId INT NOT NULL,
+	Imo NVARCHAR(100) NULL,
+	FiscalNumber NVARCHAR(100) NULL,
 	Name NVARCHAR(100) NOT NULL,
 	Dsc NVARCHAR(200) NOT NULL,
 	CreatedBy INT NOT NULL,
 	UpdateBy INT NULL,
 	CONSTRAINT fk_organizations_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
 	CONSTRAINT fk_organizations_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
-	CONSTRAINT fk_organizations_organizationtypes FOREIGN KEY (OrganizationId) REFERENCES OrganizationTypes(Id),
+	CONSTRAINT fk_organizations_organizationtypes FOREIGN KEY (OrganizationTypeId) REFERENCES OrganizationTypes(Id),
+)
+GO
+
+CREATE TABLE DocumentTypes(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NULL
 )
 GO
 
@@ -318,7 +327,7 @@ CREATE TABLE Documents(
 	Name NVARCHAR(100) NOT NULL,
 	VesselId INT NOT NULL,
 	DocPath NVARCHAR(200) NULL,
-	DocumentTypeId INT NOT NULL,
+	DocumentTypeId INT NULL,
 	IsDraft BIT NOT NULL,
 	IsValid BIT NOT NULL,
 	IsNecessary BIT NOT NULL,
@@ -334,5 +343,14 @@ CREATE TABLE Documents(
 	CONSTRAINT fk_documents_usersII FOREIGN KEY (UpdatedBy) REFERENCES Users(Id),
 	CONSTRAINT fk_documents_documenttypes FOREIGN KEY (DocumentTypeId) REFERENCES DocumentTypes(Id),
 	CONSTRAINT fk_documents_vessels FOREIGN KEY (VesselId) REFERENCES Vessels(Id)
+)
+GO
+
+CREATE TABLE DocumentTypeVesselType(
+	Id INT NULL,
+	DocumentTypeId INT NOT NULL,
+	VesselTypeId INT NOT NULL
+	CONSTRAINT fk_documenttypeVesseltype_documenttype FOREIGN KEY (DocumentTypeId) REFERENCES DocumentTypes(Id),
+	CONSTRAINT fk_documenttypeVesseltype_vesseltype FOREIGN KEY (VesselTypeId) REFERENCES VersselTypes(Id)
 )
 GO

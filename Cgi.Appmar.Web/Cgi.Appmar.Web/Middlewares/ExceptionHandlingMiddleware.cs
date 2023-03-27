@@ -1,4 +1,5 @@
 ﻿using Cgi.Appmar.Models.Responses;
+using Cgi.Appmar.Utils.Exceptions;
 using System.Net;
 using System.Text.Json;
 
@@ -37,6 +38,10 @@ namespace Cgi.Appmar.Web.Middlewares
             };
             switch (exception)
             {
+                case NotValidLoginAttemptException ex:
+                    response.StatusCode = (int)HttpStatusCode.Forbidden;
+                    errorResponse.Message = ex.Message;
+                    break;
                 case ApplicationException ex:
                     if (ex.Message.Contains("Invalid token"))
                     {
