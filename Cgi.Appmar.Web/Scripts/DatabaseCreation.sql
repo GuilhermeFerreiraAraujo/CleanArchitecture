@@ -36,7 +36,7 @@ CREATE TABLE ContactTypes(
 	Name NVARCHAR(150) NOT NULL,
 	Dsc NVARCHAR(200) NULL,
 	IsActive BIT NOT NULL
-);
+)
 GO
 
 CREATE Table Users(
@@ -80,7 +80,8 @@ CREATE TABLE Addresses(
 	CONSTRAINT fk_addresses_countries FOREIGN KEY (CountryId) REFERENCES Countries(iD),
 	CONSTRAINT fk_addresses_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
 	CONSTRAINT fk_addresses_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
-);
+)
+GO
 
 CREATE Table Contacts(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
@@ -104,14 +105,14 @@ CREATE TABLE VersselTypes(
 	Name NVARCHAR(150) NOT NULL,
 	Dsc NVARCHAR(200) NULL,
 	IsActive BIT NOT NULL
-);
+)
 GO
 
 CREATE TABLE VersselStatus(
 	Id INT NOT NULL PRIMARY KEY,
 	Name NVARCHAR(150) NOT NULL,
 	Dsc NVARCHAR(200) NULL,
-);
+)
 GO
 
 CREATE TABLE Vessels(
@@ -161,7 +162,9 @@ CREATE TABLE Vessels(
 	UpdateBy INT NULL
 
 	CONSTRAINT fk_vessels_vesseltypes FOREIGN KEY (VesselTypeId) REFERENCES VersselTypes(Id),
-	CONSTRAINT fk_vessels_vesselstatus FOREIGN KEY (VesselStatusId) REFERENCES VersselStatus(Id)
+	CONSTRAINT fk_vessels_vesselstatus FOREIGN KEY (VesselStatusId) REFERENCES VersselStatus(Id),
+	CONSTRAINT fk_vessels_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_vessels_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id)
 )
 GO
 
@@ -264,6 +267,56 @@ CREATE TABLE Fees(
 	Value DECIMAL NOT NULL,
 	CONSTRAINT fk_fees_feegroups FOREIGN KEY (FeeGroupId) REFERENCES FeeGroups(Id),
 	CONSTRAINT fk_fees_feetyps FOREIGN KEY (FeeTypeId) REFERENCES FeeTypes(Id)
+)
+GO
+
+
+
+CREATE TABLE Entities(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NULL
+)
+GO
+
+
+CREATE TABLE Approvals(
+	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	EntityId INT NOT NULL,
+	EntityTypeId INT NOT NULL,
+	IsApproved BIT NOT NULL,
+	IsParentApproval BIT NULL,
+	Comment NVARCHAR(200) NULL,
+	ApprovedBy INT NULL,
+	ApprovedDate DATETIME2 NULL,
+
+	CONSTRAINT fk_approvals_entitytypes FOREIGN KEY (EntityTypeId) REFERENCES EntityTypes(Id),
+	CONSTRAINT fk_approvals_entities FOREIGN KEY (EntityId) REFERENCES Entities(Id),
+	CONSTRAINT fk_approvals_users FOREIGN KEY (ApprovedBy) REFERENCES Users(Id)
+)
+GO
+
+
+
+CREATE TABLE OrganizationTypes(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100),
+	Dsc NVARCHAR(200)
+)
+GO
+
+
+CREATE TABLE Organizations(
+	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	OrganizationId INT NOT NULL,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NOT NULL,
+	CreatedBy INT NOT NULL,
+	UpdateBy INT NULL,
+	CONSTRAINT fk_organizations_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_organizations_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
+	CONSTRAINT fk_organizations_organizationtypes FOREIGN KEY (OrganizationId) REFERENCES OrganizationTypes(Id),
+
 )
 GO
 
