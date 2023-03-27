@@ -1,4 +1,3 @@
-
 IF EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = N'APPMAR')
 DROP DATABASE APPMAR;
 GO
@@ -10,6 +9,14 @@ USE APPMAR;
 GO
 
 CREATE TABLE ActivityTypes(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NULL,
+	IsActive BIT NOT NULL
+)
+GO
+
+CREATE TABLE ActivitySubTypes(
 	Id INT NOT NULL PRIMARY KEY,
 	Name NVARCHAR(100) NOT NULL,
 	Dsc NVARCHAR(200) NULL,
@@ -168,13 +175,12 @@ CREATE TABLE Vessels(
 )
 GO
 
-
-
 CREATE TABLE Activities(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	VesselId INT NOT NULL,
 	RequestId INT NOT NULL,
 	ActivityTypeId INT NOT NULL,
+	ActivitySubtypeId INT NOT NULL, 
 	ActivityStatusId INT NOT NULL,
 	CsrDocNum NVARCHAR(200) NULL,
 	RejectDesc NVARCHAR(200) NULL,
@@ -188,11 +194,11 @@ CREATE TABLE Activities(
 
 	CONSTRAINT fk_activities_vessels FOREIGN KEY (VesselId) REFERENCES Vessels(Id),
 	CONSTRAINT fk_activities_activitytype FOREIGN KEY (ActivityTypeId) REFERENCES ActivityTypes(Id),
+	CONSTRAINT fk_activities_activitiessubtypes FOREIGN KEY (ActivitySubtypeId) REFERENCES ActivitySubtypes(Id),
 	CONSTRAINT fk_activities_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
 	CONSTRAINT fk_activities_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
 )
 GO
-
 
 CREATE Table Roles(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
@@ -217,7 +223,6 @@ CREATE Table Permissions(
 )
 GO
 
-
 CREATE TABLE RolesPermissions(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	RoleId INT NOT NULL,
@@ -227,14 +232,12 @@ CREATE TABLE RolesPermissions(
 )
 GO
 
-
 CREATE TABLE FeeGroups(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	Name NVARCHAR NOT NULL,
 	Dsc NVARCHAR NULL
 )
 GO
-
 
 CREATE TABLE Feetypes(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
@@ -243,7 +246,6 @@ CREATE TABLE Feetypes(
 )
 GO
 
-
 CREATE TABLE FeeChargedStatus(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	Name NVARCHAR NOT NULL,
@@ -251,14 +253,12 @@ CREATE TABLE FeeChargedStatus(
 )
 GO
 
-
 CREATE TABLE Feechaged(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	FeeStatusId INT NOT NULL,
 	CONSTRAINT fk_feechaged_feechargedstatus FOREIGN KEY (FeeStatusId) REFERENCES FeeChargedStatus(Id)
 )
 GO
-
 
 CREATE TABLE Fees(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
@@ -270,15 +270,12 @@ CREATE TABLE Fees(
 )
 GO
 
-
-
 CREATE TABLE Entities(
 	Id INT NOT NULL PRIMARY KEY,
 	Name NVARCHAR(100) NOT NULL,
 	Dsc NVARCHAR(200) NULL
 )
 GO
-
 
 CREATE TABLE Approvals(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
@@ -296,15 +293,12 @@ CREATE TABLE Approvals(
 )
 GO
 
-
-
 CREATE TABLE OrganizationTypes(
 	Id INT NOT NULL PRIMARY KEY,
 	Name NVARCHAR(100),
 	Dsc NVARCHAR(200)
 )
 GO
-
 
 CREATE TABLE Organizations(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
@@ -316,11 +310,29 @@ CREATE TABLE Organizations(
 	CONSTRAINT fk_organizations_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
 	CONSTRAINT fk_organizations_usersII FOREIGN KEY (UpdateBy) REFERENCES Users(Id),
 	CONSTRAINT fk_organizations_organizationtypes FOREIGN KEY (OrganizationId) REFERENCES OrganizationTypes(Id),
-
 )
 GO
 
+CREATE TABLE Documents(
+	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	VesselId INT NOT NULL,
+	DocPath NVARCHAR(200) NULL,
+	DocumentTypeId INT NOT NULL,
+	IsDraft BIT NOT NULL,
+	IsValid BIT NOT NULL,
+	IsNecessary BIT NOT NULL,
+	UniqueTrackNumber NVARCHAR(100) NULL,
+	ExpiryDate DATETIME2 NULL,
+	EndDate DATETIME2 NULL,
+	CreatedBy INT NOT NULL,
+	CreatedDate DATETIME2 NULL,
+	UpdatedBy INT NULL,
+	UpdatedDate DATETIME2
 
-
-
-
+	CONSTRAINT fk_documents_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_documents_usersII FOREIGN KEY (UpdatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_documents_documenttypes FOREIGN KEY (DocumentTypeId) REFERENCES DocumentTypes(Id),
+	CONSTRAINT fk_documents_vessels FOREIGN KEY (VesselId) REFERENCES Vessels(Id)
+)
+GO
