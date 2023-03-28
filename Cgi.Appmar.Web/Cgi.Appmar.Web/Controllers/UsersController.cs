@@ -9,10 +9,10 @@ namespace Cgi.Appmar.Web.Controllers
     [Route("[controller]")]
     public class UsersController : ControllerBase
     {
-        private readonly ILogger<VesselsController> logger;
+        private readonly ILogger<UsersController> logger;
         private readonly IUserServices userServices;
 
-        public UsersController(ILogger<VesselsController> _logger, 
+        public UsersController(ILogger<UsersController> _logger, 
             IUserServices _userServices)
         {
             logger = _logger;
@@ -26,6 +26,18 @@ namespace Cgi.Appmar.Web.Controllers
         {
             userServices.Authenticate(request);
             return Ok();
+        }
+
+        [Route("AddUser")]
+        [AllowAnonymous]
+        [HttpPost]
+        public IActionResult AddUser([FromBody]AddUserRequest request)
+        {
+
+            userServices.AddUser(request);
+
+            return Ok();
+
         }
     }
 }

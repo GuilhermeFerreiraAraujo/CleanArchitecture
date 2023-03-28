@@ -1,4 +1,11 @@
 .Textbox {
-
+    margin:5px 0 5px 0;
     
+    .label {
+        margin-right: 5px;
+    }
+    
+    .input {
+        border: 1px solid black;
+    }
 }

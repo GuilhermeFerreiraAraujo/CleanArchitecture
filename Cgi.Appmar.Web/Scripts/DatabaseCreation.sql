@@ -54,7 +54,7 @@ CREATE Table Users(
 	LastLogin DATETIME2 NULL,
 	IsActive BIT NOT NULL,
 	CreateDate DATETIME2 NOT NULL,
-	CreatedBy INT NOT NULL,
+	CreatedBy INT NULL,
 	UpdateDate DATETIME2 NULL,
 	UpdateBy INT NULL,
 	CONSTRAINT fk_users_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),

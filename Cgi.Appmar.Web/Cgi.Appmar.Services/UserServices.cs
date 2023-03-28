@@ -24,10 +24,26 @@ namespace Cgi.Appmar.Services
             userRepository = _userRepository;
         }
 
+        public User AddUser(AddUserRequest request)
+        {
+            var user = new User
+            {
+                Name = request.Name,
+                Email = request.Email,
+                PasswordHash = Hashing.Hash(request.Password),
+                CreateDate = DateTime.UtcNow,
+                IsActive = true
+            };
+
+            userRepository.Add(user);
+
+            return user;
+        }
+
         public async void Authenticate(AuthenticateRequest request)
         {
             var context = httpContextAccessor.HttpContext;
-            var username = request.Username;
+            var username = request.Email;
             var passwordHash = Hashing.Hash(request.Password);
 
             var user = new User
@@ -43,7 +59,7 @@ namespace Cgi.Appmar.Services
 
             var claims = new List<Claim>
             {
-                new Claim(type: ClaimTypes.Email, value: request.Username),
+                new Claim(type: ClaimTypes.Email, value: request.Email),
                 new Claim(type: ClaimTypes.Name,value: request.Password)
             };
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

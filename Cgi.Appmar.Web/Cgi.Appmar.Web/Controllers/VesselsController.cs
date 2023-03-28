@@ -1,12 +1,14 @@
 using Cgi.Appmar.Interfaces.Services;
 using Cgi.Appmar.Models.Entities;
 using Cgi.Appmar.Models.Requests;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cgi.Appmar.Web.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class VesselsController : ControllerBase
     {
      
