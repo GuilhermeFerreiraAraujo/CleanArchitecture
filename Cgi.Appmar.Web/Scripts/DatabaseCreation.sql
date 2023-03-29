@@ -354,3 +354,28 @@ CREATE TABLE DocumentTypeVesselType(
 	CONSTRAINT fk_documenttypeVesseltype_vesseltype FOREIGN KEY (VesselTypeId) REFERENCES VersselTypes(Id)
 )
 GO
+
+CREATE TABLE Lookups(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(200) NOT NULL,
+	Dsc NVARCHAR(200) NULL,
+	IsActive BIT NOT NULL
+)
+GO
+
+CREATE TABLE LookupValues(
+	Id INT IDENTITY(1, 1) PRIMARY KEY,
+	LookupId INT NOT NULL,
+	Value NVARCHAR(200) NULL,
+	CONSTRAINT fk_lookupvalues_lookups FOREIGN KEY (LookupId) REFERENCES Lookups(Id)
+)
+GO
+
+CREATE TABLE LookupEntityValues(
+	Id INT NOT NULL PRIMARY KEY,
+	Value NVARCHAR(100) NULL,
+	EntityTypeId INT NOT NULL,
+	EntityId INT NULL,
+	CONSTRAINT fk_lookupentityvalues_entitytypes FOREIGN KEY (EntityTypeId) REFERENCES EntityTypes(Id)
+)
+GO
