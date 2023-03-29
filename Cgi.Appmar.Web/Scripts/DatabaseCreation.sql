@@ -281,7 +281,7 @@ CREATE TABLE Approvals(
 	Id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 	EntityId INT NOT NULL,
 	EntityTypeId INT NOT NULL,
-	IsApproved BIT NOT NULL,
+	IsApproved BIT NULL,
 	IsParentApproval BIT NULL,
 	Comment NVARCHAR(200) NULL,
 	ApprovedBy INT NULL,
