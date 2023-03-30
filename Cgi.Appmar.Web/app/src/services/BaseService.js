@@ -5,7 +5,7 @@ const domain = 'https://localhost:7225/'
 const headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': '*',
-    'Access-Control-Allow-Credentials': 'true'
+    'Access-Control-Allow-Credentials': 'true',
 }
 
 export function Get(url) {
@@ -14,7 +14,7 @@ export function Get(url) {
 
 export function Post(url, data) {
   const endpoint = `${domain}${url}`
-  return axios.post(endpoint, data, headers)
+  return axios.post(endpoint, data, headers);
 }
 
 export function Put(url, data) {
