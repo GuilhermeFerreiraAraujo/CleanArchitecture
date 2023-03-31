@@ -21,6 +21,16 @@ namespace Cgi.Appmar.Repositories
                 users = users.Where(x => x.Name.Contains(request.Name));
             }
 
+            if (!string.IsNullOrEmpty(request.Email))
+            {
+                users = users.Where(x => x.Email.Contains(request.Email));
+            }
+
+            if (!request.IsActive == null)
+            {
+                users = users.Where(x => x.IsActive == request.IsActive);
+            }
+
             return users.ToList();
         }
 
