@@ -1,5 +1,6 @@
 ﻿using Cgi.Appmar.Interfaces.Repositories;
 using Cgi.Appmar.Interfaces.Services;
+using Cgi.Appmar.Models.Entities;
 using Cgi.Appmar.Models.Requests;
 using Cgi.Appmar.Utils.Security;
 using Microsoft.AspNetCore.Authentication;

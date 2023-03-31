@@ -1,6 +1,5 @@
-﻿using Cgi.Appmar.Interfaces;
-using Cgi.Appmar.Interfaces.Repositories;
-using Cgi.Appmar.Models;
+﻿using Cgi.Appmar.Models;
+using Cgi.Appmar.Models.Entities;
 
 namespace Cgi.Appmar.Repositories
 {

@@ -1,7 +1,9 @@
-﻿
-using Cgi.Appmar.Models.Entities;
+﻿using System;
+using System.Collections.Generic;
 
-public partial class VersselType
+namespace Cgi.Appmar.Models.Entities;
+
+public partial class VersselType : IBaseEntity
 {
     public int Id { get; set; }
 

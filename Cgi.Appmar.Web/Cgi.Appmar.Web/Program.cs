@@ -1,5 +1,6 @@
 using Cgi.Appmar.Interfaces.Repositories;
 using Cgi.Appmar.Interfaces.Services;
+using Cgi.Appmar.Models.Entities;
 using Cgi.Appmar.Repositories;
 using Cgi.Appmar.Services;
 using Cgi.Appmar.Web.Middlewares;

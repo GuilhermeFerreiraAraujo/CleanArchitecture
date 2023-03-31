@@ -1,6 +1,9 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
 
-public partial class ContactType
+namespace Cgi.Appmar.Models.Entities;
+
+public partial class ContactType : IBaseEntity
 {
     public int Id { get; set; }
 
