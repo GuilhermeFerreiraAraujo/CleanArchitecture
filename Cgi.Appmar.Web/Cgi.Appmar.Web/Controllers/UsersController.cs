@@ -7,6 +7,7 @@ namespace Cgi.Appmar.Web.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly ILogger<UsersController> logger;
@@ -29,7 +30,6 @@ namespace Cgi.Appmar.Web.Controllers
         }
 
         [Route("AddUser")]
-        [AllowAnonymous]
         [HttpPost]
         public IActionResult AddUser([FromBody]AddUserRequest request)
         {
