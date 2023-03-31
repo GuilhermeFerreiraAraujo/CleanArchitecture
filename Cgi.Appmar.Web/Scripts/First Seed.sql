@@ -28,3 +28,50 @@ BEGIN
 END
 GO
 
+
+
+IF NOT EXISTS(SELECT TOP 1 * FROM OcurrenceTypes)
+BEGIN
+	
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (1, 'PSC Detention');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (2, 'PSC Deficiencies');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (3, 'Contravention');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (4, 'Insp flag');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (5, 'Info NC');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (6, 'Casuality');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (7, 'Exemption');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (8, 'Condition w/cert');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (9, 'Condition');
+
+	INSERT INTO OcurrenceTypes(Id, Name)
+	VALUES (10, 'Comp. Under Observation');
+
+END
+GO
+
+IF NOT EXISTS(SELECT TOP 1 * FROM ActivityTypes)
+BEGIN
+	
+	INSERT INTO ActivityTypes(Id, Name,IsActive)
+	VALUES (1, '', 1)
+
+
+END
+GO

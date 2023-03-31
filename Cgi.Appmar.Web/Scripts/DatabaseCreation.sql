@@ -163,6 +163,8 @@ CREATE TABLE Vessels(
 	Notes NVARCHAR(500) NULL,
 	Remarks NVARCHAR(500) NULL,
 
+	IsDeleted BIT NULL,
+
 	CreateDate DATETIME2 NOT NULL,
 	CreatedBy INT NOT NULL,
 	UpdateDate DATETIME2 NULL,
@@ -377,5 +379,77 @@ CREATE TABLE LookupEntityValues(
 	EntityTypeId INT NOT NULL,
 	EntityId INT NULL,
 	CONSTRAINT fk_lookupentityvalues_entitytypes FOREIGN KEY (EntityTypeId) REFERENCES EntityTypes(Id)
+)
+GO
+
+
+CREATE TABLE OcurrenceTypes(
+	Id INT PRIMARY KEY,
+	Name NVARCHAR(200) NOT NULL,
+	Dsc NVARCHAR(200) NULL
+)
+GO
+
+
+CREATE TABLE Ocurrences(
+	Id INT IDENTITY(1,1) PRIMARY KEY,
+	VesselId INT NOT NULL,
+	OccurenceTypeId INT NOT NULL,
+	OcurrencyDate DATETIME2 NULL,
+	Grade NVARCHAR(20),
+	ResolutionDate DATETIME2 NULL,
+	ReplyDate DATETIME2 NULL,
+	AdditionalInformation NVARCHAR(1000),
+	Details NVARCHAR(200),
+	CreatedBy INT NOT NULL,
+	CreatedDate DATETIME2 NULL,
+	UpdatedBy INT NULL,
+	UpdatedDate DATETIME2
+
+	CONSTRAINT fk_ocurrences_vessels FOREIGN KEY (VesselId) REFERENCES Vessels(Id),
+	CONSTRAINT fk_ocurrences_usersI FOREIGN KEY (CreatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_ocurrences_usersII FOREIGN KEY (UpdatedBy) REFERENCES Users(Id),
+	CONSTRAINT fk_ocurrences_ocurrencetypes FOREIGN KEY (OccurenceTypeId) REFERENCES OcurrenceTypes(Id)
+)
+GO
+
+
+
+CREATE TABLE ResourceTypes(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NULL
+)
+GO
+
+CREATE TABLE ResourceSubTypes(
+	Id INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR(100) NOT NULL,
+	Dsc NVARCHAR(200) NULL
+)
+GO
+
+
+CREATE TABLE Resources(
+	Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	ResourceTypeId INT NOT NULL,
+	ResourceSubTypeId INT NOT NULL,
+
+	Name NVARCHAR(200) NOT NULL
+
+	CONSTRAINT fk_resources_resourcesubtypes FOREIGN KEY (ResourceSubTypeId) REFERENCES ResourceSubTypes(Id),
+	CONSTRAINT fk_seafares_resourcetypes FOREIGN KEY (ResourceTypeId) REFERENCES ResourceTypes(Id)
+)
+GO
+
+
+CREATE TABLE Citizenships(
+	Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	ResourceId INT NOT NULL,
+	CountryId INT NOT NULL,
+	IsMainCitizenship BIT NOT NULL,
+
+	CONSTRAINT fk_citizenships_resources FOREIGN KEY (ResourceId) REFERENCES Resources(Id),
+	CONSTRAINT fk_citizenships_countries FOREIGN KEY (CountryId) REFERENCES Countries(Id)
 )
 GO
