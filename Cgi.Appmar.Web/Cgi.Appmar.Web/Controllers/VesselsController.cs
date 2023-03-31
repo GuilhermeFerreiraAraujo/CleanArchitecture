@@ -34,7 +34,7 @@ namespace Cgi.Appmar.Web.Controllers
             return Ok(vessel);
         }
 
-        [HttpPut]
+        [HttpPost]
         [Route("UpdateVessel")]
         public IActionResult UpdateVessel([FromBody] UpdateVesselRequest request)
         {
