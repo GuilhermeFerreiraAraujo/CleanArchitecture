@@ -2,7 +2,7 @@
 {
     public interface IBaseRepository<T> where T : class
     {
-        T Get(int id);
+        T GetById(int id);
         IEnumerable<T> Get();
         void Update(T vessel);
         void Delete(T vessel);

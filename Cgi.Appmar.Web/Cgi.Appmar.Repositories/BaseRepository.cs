@@ -31,7 +31,7 @@ namespace Cgi.Appmar.Repositories
             return context.Set<T>().ToList();
         }
 
-        public T Get(int id)
+        public T GetById(int id)
         {
             return context.Set<T>().First(x => x.Id == id);
         }

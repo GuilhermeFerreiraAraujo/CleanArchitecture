@@ -1,5 +1,4 @@
 using Cgi.Appmar.Interfaces.Services;
-using Cgi.Appmar.Models.Entities;
 using Cgi.Appmar.Models.Requests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +10,6 @@ namespace Cgi.Appmar.Web.Controllers
     [Authorize]
     public class VesselsController : ControllerBase
     {
-     
         private readonly ILogger<VesselsController> logger;
         private readonly IVesselServices vesselServices;
 
@@ -32,7 +30,7 @@ namespace Cgi.Appmar.Web.Controllers
         [HttpGet]
         public IActionResult GetVesselById(int id)
         {
-            Vessel vessel =  vesselServices.GetVesselById(id);
+            var vessel = vesselServices.GetVesselById(id);
             return Ok(vessel);
         }
 

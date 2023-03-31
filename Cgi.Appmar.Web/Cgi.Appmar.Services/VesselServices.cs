@@ -26,7 +26,7 @@ namespace Cgi.Appmar.Services
 
         public Vessel GetVesselById(int id)
         {
-            return vesselRepository.Get(id);
+            return vesselRepository.GetById(id);
         }
 
         public IEnumerable<Vessel> GetVessels()

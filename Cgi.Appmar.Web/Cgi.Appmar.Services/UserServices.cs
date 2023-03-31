@@ -11,15 +11,12 @@ namespace Cgi.Appmar.Services
 {
     public class UserServices : IUserServices
     {
-        private readonly IVesselRepository vesselRepository;
         private readonly IHttpContextAccessor httpContextAccessor;
         private readonly IUserRepository userRepository;
 
-        public UserServices(IVesselRepository _vesselRespotirory, 
-            IHttpContextAccessor _httpContextAccessor,
+        public UserServices(IHttpContextAccessor _httpContextAccessor,
             IUserRepository _userRepository)
         {
-            vesselRepository = _vesselRespotirory;
             httpContextAccessor = _httpContextAccessor;
             userRepository = _userRepository;
         }
@@ -67,6 +64,23 @@ namespace Cgi.Appmar.Services
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 new ClaimsPrincipal(identity)
                 );
+        }
+
+        public User GetUserById(int id)
+        {
+            return userRepository.GetById(id);
+        }
+
+        public List<User> GetUsers(GetUsersRequest request)
+        {
+            return userRepository.GetUsers(request);
+        }
+
+        public void UpdateUser(UpdateUserRequest request)
+        {
+            var user = userRepository.GetById(request.Id);
+            user.Name = request.Name;
+            userRepository.Update(user);
         }
     }
 }
