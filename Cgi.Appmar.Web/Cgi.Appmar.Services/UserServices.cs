@@ -59,20 +59,14 @@ namespace Cgi.Appmar.Services
 
             var claims = new List<Claim>
             {
-                new Claim(type: ClaimTypes.Email, value: request.Email),
-                new Claim(type: ClaimTypes.Name,value: request.Password)
+                new Claim(ClaimTypes.Name, request.Email)
             };
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
             await context.SignInAsync(
                 CookieAuthenticationDefaults.AuthenticationScheme,
-                new ClaimsPrincipal(identity),
-                new AuthenticationProperties
-                {
-                    IsPersistent = true,
-                    AllowRefresh = true,
-                    ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(10),
-                });
+                new ClaimsPrincipal(identity)
+                );
         }
     }
 }

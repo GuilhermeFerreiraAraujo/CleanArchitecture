@@ -20,7 +20,6 @@ function App() {
     }
     UserServices.Login(data)
     .then((x) => {
-      setUser(x)
       console.log('user', x)
     })
     .catch((ex) => {

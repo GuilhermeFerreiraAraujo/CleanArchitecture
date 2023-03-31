@@ -13,6 +13,7 @@ export function Get(url) {
 }
 
 export function Post(url, data) {
+  axios.defaults.withCredentials = true;
   const endpoint = `${domain}${url}`
   return axios.post(endpoint, data, headers);
 }
