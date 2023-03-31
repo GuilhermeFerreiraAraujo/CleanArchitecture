@@ -1,4 +1,4 @@
 
 Scaffold Databse:
 
-Scaffold-DbContext "Server=localhost;Database=appmar;Trusted_Connection=True; Integrated Security=true; TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "Server=localhost;Database=appmar;Trusted_Connection=True; Integrated Security=true; TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -StartupProject Cgi.Appmar.Models
