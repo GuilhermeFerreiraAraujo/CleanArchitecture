@@ -1,3 +1,4 @@
+using Cgi.Appmar.Interfaces.Services;
 using Cgi.Appmar.Models.Requests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -10,8 +11,7 @@ namespace Cgi.Appmar.Web.Controllers
     public class ApprovalsController : ControllerBase
     {
         private readonly ILogger<ApprovalsController> logger;
-
-        private readonly
+        private readonly IApprovalServices approvalServices;
 
         public ApprovalsController(ILogger<ApprovalsController> _logger)
         {
@@ -22,20 +22,23 @@ namespace Cgi.Appmar.Web.Controllers
         [HttpGet]
         public IActionResult GetPendingApprovals()
         {
-            return Ok(); 
+            var approvals = approvalServices.GetPendingApprovals();
+            return Ok(approvals); 
         }
 
         [HttpPost]
         [Route("ApproveActivity")]
-        public IActionResult ApproveActivity([FromBody] UpdateVesselRequest request)
+        public IActionResult ApproveActivity([FromBody]ApproveActivityRequest request)
         {
+            approvalServices.ApproveActivity(request);
             return Ok();
         }
 
         [HttpPost]
         [Route("RejectActivity")]
-        public IActionResult RejectActivity([FromBody] AddVesselRequest request)
+        public IActionResult RejectActivity([FromBody]RejectActivityRequest request)
         {
+            approvalServices.RejectActivity(request);
             return Ok();
         }
     }
