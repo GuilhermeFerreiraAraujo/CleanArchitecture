@@ -2,6 +2,8 @@ using Cgi.Appmar.Interfaces.Services;
 using Cgi.Appmar.Models.Requests;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 
 namespace Cgi.Appmar.Web.Controllers
 {
@@ -27,6 +29,12 @@ namespace Cgi.Appmar.Web.Controllers
         {
             userServices.Authenticate(request);
             return Ok();
+        }
+
+        [HttpGet("Logout")]
+        public async Task SignOutAsync()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
         }
 
         [Route("GetUserById")]
