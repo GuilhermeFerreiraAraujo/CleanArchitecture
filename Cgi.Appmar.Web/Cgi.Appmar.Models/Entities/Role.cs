@@ -11,5 +11,7 @@ public partial class Role : IBaseEntity
 
     public string? Dsc { get; set; }
 
+    public bool IsActive { get; set; }
+
     public virtual ICollection<RolesPermission> RolesPermissions { get; } = new List<RolesPermission>();
 }
