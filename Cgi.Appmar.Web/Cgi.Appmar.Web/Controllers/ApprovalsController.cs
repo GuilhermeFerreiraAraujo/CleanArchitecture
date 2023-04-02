@@ -11,6 +11,8 @@ namespace Cgi.Appmar.Web.Controllers
     {
         private readonly ILogger<ApprovalsController> logger;
 
+        private readonly
+
         public ApprovalsController(ILogger<ApprovalsController> _logger)
         {
             logger = _logger;
@@ -18,22 +20,21 @@ namespace Cgi.Appmar.Web.Controllers
 
         [Route("GetPendingApprovals")]
         [HttpGet]
-        public IActionResult GetVessels()
+        public IActionResult GetPendingApprovals()
         {
             return Ok(); 
         }
 
-
         [HttpPost]
         [Route("ApproveActivity")]
-        public IActionResult UpdateVessel([FromBody] UpdateVesselRequest request)
+        public IActionResult ApproveActivity([FromBody] UpdateVesselRequest request)
         {
             return Ok();
         }
 
         [HttpPost]
         [Route("RejectActivity")]
-        public IActionResult AddVessel([FromBody] AddVesselRequest request)
+        public IActionResult RejectActivity([FromBody] AddVesselRequest request)
         {
             return Ok();
         }
