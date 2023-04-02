@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
+﻿
 namespace Cgi.Appmar.Models.Entities;
 
 public partial class LookupValue : IBaseEntity

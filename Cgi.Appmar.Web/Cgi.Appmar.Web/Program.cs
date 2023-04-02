@@ -42,9 +42,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AppmarContext, AppmarContext>();
 builder.Services.AddTransient<IVesselServices, VesselServices>();
 builder.Services.AddTransient<IUserServices, UserServices>();
+builder.Services.AddTransient<ILookupServices, LookupServices>();
+builder.Services.AddTransient<IRoleServices, RoleServices>();
 
 builder.Services.AddTransient<IVesselRepository, VesselRepository>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<ILookupRepository, LookupRepository>();
+builder.Services.AddTransient<IRoleRepository, RoleRepository>();
 
 var connectionString = builder.Configuration.GetConnectionString("APPMAR");
 

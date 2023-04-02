@@ -66,6 +66,46 @@ BEGIN
 END
 GO
 
+
+IF NOT EXISTS(SELECT TOP 1 * FROM Lookups)
+BEGIN
+
+	INSERT INTO Lookups(NAME, NAMEKEY, Id, IsActive)
+	VALUES ('Vessel Type', 'VesselType', 1, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY, Id, IsActive)
+	VALUES ('Vessel Status For Temporary Registration', 'VesselStatusForTemporaryRegistration', 2, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY, Id, IsActive)
+	VALUES ('Hull Material', 'HullMaterial', 3, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY,Id, IsActive)
+	VALUES ('Radio Accounting Authority(AAIC)', 'RadioAccountingAuthority', 4, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY,Id, IsActive)
+	VALUES ('Class Society', 'ClassSociety', 5, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY,Id, IsActive)
+	VALUES ('Vessel Status For Ownership Registration', 'VesselStatusForOwnershipRegistration', 6, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY, Id,IsActive)
+	VALUES ('Authorization for Temporary Registration', 'AuthorizationForTemporaryRegistration', 7, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY, Id,IsActive)
+	VALUES ('Registration Port', 'RegistrationPort', 8, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY,Id, IsActive)
+	VALUES ('SSL Equipment', 'SSLEquipment', 9, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY, Id,IsActive)
+	VALUES ('TC Members', 'TCMembers', 10, 1);
+
+	INSERT INTO Lookups(NAME, NAMEKEY, Id,IsActive)
+	VALUES ('DMLC TITLE', 'DMCLTITLE', 11, 1);
+
+END
+GO
+
 IF NOT EXISTS(SELECT TOP 1 * FROM ActivityTypes)
 BEGIN
 	
