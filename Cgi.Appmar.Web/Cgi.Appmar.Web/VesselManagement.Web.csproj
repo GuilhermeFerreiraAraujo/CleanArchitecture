@@ -19,10 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cgi.Appmar.Interfaces\Cgi.Appmar.Interfaces.csproj" />
-    <ProjectReference Include="..\Cgi.Appmar.Models\Cgi.Appmar.Models.csproj" />
-    <ProjectReference Include="..\Cgi.Appmar.Repositories\Cgi.Appmar.Repositories.csproj" />
-    <ProjectReference Include="..\Cgi.Appmar.Services\Cgi.Appmar.Services.csproj" />
+    <ProjectReference Include="..\Cgi.Appmar.Interfaces\VesselManagement.Interfaces.csproj" />
+    <ProjectReference Include="..\Cgi.Appmar.Models\VesselManagement.Models.csproj" />
+    <ProjectReference Include="..\Cgi.Appmar.Repositories\VesselManagement.Repositories.csproj" />
+    <ProjectReference Include="..\Cgi.Appmar.Services\VesselManagement.Services.csproj" />
   </ItemGroup>
 
 </Project>

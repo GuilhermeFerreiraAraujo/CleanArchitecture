@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cgi.Appmar.Models\Cgi.Appmar.Models.csproj" />
+    <ProjectReference Include="..\Cgi.Appmar.Interfaces\VesselManagement.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

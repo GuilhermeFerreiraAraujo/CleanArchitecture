@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cgi.Appmar.Interfaces\Cgi.Appmar.Interfaces.csproj" />
-    <ProjectReference Include="..\Cgi.Appmar.Utils\Cgi.Appmar.Utils.csproj" />
+    <ProjectReference Include="..\Cgi.Appmar.Interfaces\VesselManagement.Interfaces.csproj" />
+    <ProjectReference Include="..\Cgi.Appmar.Utils\VesselManagement.Utils.csproj" />
   </ItemGroup>
 
 </Project>

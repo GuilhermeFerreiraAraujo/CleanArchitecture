@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Web", "Cgi.Appmar.Web\Cgi.Appmar.Web.csproj", "{01EBD6FE-4958-4F0A-9542-5AA7BEC89613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VesselManagement.Web", "Cgi.Appmar.Web\VesselManagement.Web.csproj", "{01EBD6FE-4958-4F0A-9542-5AA7BEC89613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Models", "Cgi.Appmar.Models\Cgi.Appmar.Models.csproj", "{C6CC3BF9-236D-46CF-98D9-6E836942C2E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VesselManagement.Models", "Cgi.Appmar.Models\VesselManagement.Models.csproj", "{C6CC3BF9-236D-46CF-98D9-6E836942C2E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Repositories", "Cgi.Appmar.Repositories\Cgi.Appmar.Repositories.csproj", "{B891B1F8-017B-45CB-B3C4-030A1C06DAB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VesselManagement.Repositories", "Cgi.Appmar.Repositories\VesselManagement.Repositories.csproj", "{B891B1F8-017B-45CB-B3C4-030A1C06DAB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Interfaces", "Cgi.Appmar.Interfaces\Cgi.Appmar.Interfaces.csproj", "{9339DDBC-5B17-4890-B7AC-0AE3DB9A0F5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VesselManagement.Interfaces", "Cgi.Appmar.Interfaces\VesselManagement.Interfaces.csproj", "{9339DDBC-5B17-4890-B7AC-0AE3DB9A0F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Services", "Cgi.Appmar.Services\Cgi.Appmar.Services.csproj", "{DD2C7FA1-64EC-4CB3-9217-8F492F633613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VesselManagement.Services", "Cgi.Appmar.Services\VesselManagement.Services.csproj", "{DD2C7FA1-64EC-4CB3-9217-8F492F633613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgi.Appmar.Utils", "Cgi.Appmar.Utils\Cgi.Appmar.Utils.csproj", "{08192049-8DDB-4176-BF8F-BD311D69141D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VesselManagement.Utils", "Cgi.Appmar.Utils\VesselManagement.Utils.csproj", "{08192049-8DDB-4176-BF8F-BD311D69141D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
