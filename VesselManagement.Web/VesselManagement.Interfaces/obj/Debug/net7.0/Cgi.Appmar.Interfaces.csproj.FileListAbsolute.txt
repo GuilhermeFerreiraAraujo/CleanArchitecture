@@ -1,0 +1,30 @@
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Interfaces.deps.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.csproj.AssemblyReference.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.AssemblyInfoInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.AssemblyInfo.cs
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.csproj.CopyComplete
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\refint\Cgi.Appmar.Interfaces.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\ref\Cgi.Appmar.Interfaces.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Interfaces.deps.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.csproj.AssemblyReference.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.AssemblyInfoInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.AssemblyInfo.cs
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.csproj.CoreCompileInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.csproj.CopyComplete
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\refint\Cgi.Appmar.Interfaces.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Interfaces\obj\Debug\net7.0\ref\Cgi.Appmar.Interfaces.dll

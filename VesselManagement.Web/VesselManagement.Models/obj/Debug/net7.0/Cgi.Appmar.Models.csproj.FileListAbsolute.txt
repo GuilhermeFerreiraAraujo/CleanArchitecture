@@ -1,0 +1,24 @@
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\bin\Debug\net7.0\Cgi.Appmar.Models.deps.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.csproj.AssemblyReference.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.AssemblyInfoInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.AssemblyInfo.cs
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.csproj.CoreCompileInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\refint\Cgi.Appmar.Models.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\ref\Cgi.Appmar.Models.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\bin\Debug\net7.0\Cgi.Appmar.Models.deps.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.csproj.AssemblyReference.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.AssemblyInfoInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.AssemblyInfo.cs
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.csproj.CoreCompileInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\refint\Cgi.Appmar.Models.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Models\obj\Debug\net7.0\ref\Cgi.Appmar.Models.dll

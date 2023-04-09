@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gcws1wgOYpR1z2A247XJ01oh11mo9PHJjVoW2OlcvZc=",
+  "Source": "VesselManagement.Web",
+  "BasePath": "_content/VesselManagement.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

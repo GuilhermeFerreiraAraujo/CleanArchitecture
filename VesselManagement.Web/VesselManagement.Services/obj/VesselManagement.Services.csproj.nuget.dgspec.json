@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Services\\VesselManagement.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Interfaces\\VesselManagement.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Interfaces\\VesselManagement.Interfaces.csproj",
+        "projectName": "VesselManagement.Interfaces",
+        "projectPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Interfaces\\VesselManagement.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\MEGA 9000X\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MEGA 9000X\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Models\\VesselManagement.Models.csproj": {
+                "projectPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Models\\VesselManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Models\\VesselManagement.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Models\\VesselManagement.Models.csproj",
+        "projectName": "VesselManagement.Models",
+        "projectPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Models\\VesselManagement.Models.csproj",
+        "packagesPath": "C:\\Users\\MEGA 9000X\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MEGA 9000X\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Services\\VesselManagement.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Services\\VesselManagement.Services.csproj",
+        "projectName": "VesselManagement.Services",
+        "projectPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Services\\VesselManagement.Services.csproj",
+        "packagesPath": "C:\\Users\\MEGA 9000X\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MEGA 9000X\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Interfaces\\VesselManagement.Interfaces.csproj": {
+                "projectPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Interfaces\\VesselManagement.Interfaces.csproj"
+              },
+              "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Utils\\VesselManagement.Utils.csproj": {
+                "projectPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Utils\\VesselManagement.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Utils\\VesselManagement.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Utils\\VesselManagement.Utils.csproj",
+        "projectName": "VesselManagement.Utils",
+        "projectPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Utils\\VesselManagement.Utils.csproj",
+        "packagesPath": "C:\\Users\\MEGA 9000X\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\APPMAR\\VesselManagement.Web\\VesselManagement.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MEGA 9000X\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Services.deps.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Services.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Services.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Utils.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Utils.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.csproj.AssemblyReference.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.AssemblyInfoInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.AssemblyInfo.cs
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.csproj.CoreCompileInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.csproj.CopyComplete
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\refint\Cgi.Appmar.Services.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\ref\Cgi.Appmar.Services.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Services.deps.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Services.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Services.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Utils.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Utils.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.csproj.AssemblyReference.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.AssemblyInfoInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.AssemblyInfo.cs
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.csproj.CoreCompileInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.csproj.CopyComplete
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\refint\Cgi.Appmar.Services.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\Cgi.Appmar.Services.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Services\obj\Debug\net7.0\ref\Cgi.Appmar.Services.dll

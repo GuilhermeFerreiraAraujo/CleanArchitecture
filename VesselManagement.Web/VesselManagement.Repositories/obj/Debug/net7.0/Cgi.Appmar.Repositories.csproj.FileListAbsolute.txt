@@ -1,0 +1,34 @@
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Repositories.deps.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Repositories.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Repositories.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.csproj.AssemblyReference.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.AssemblyInfoInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.AssemblyInfo.cs
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.csproj.CopyComplete
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\refint\Cgi.Appmar.Repositories.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\ref\Cgi.Appmar.Repositories.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Repositories.deps.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Repositories.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Repositories.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.csproj.AssemblyReference.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.AssemblyInfoInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.AssemblyInfo.cs
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.csproj.CoreCompileInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.csproj.CopyComplete
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\refint\Cgi.Appmar.Repositories.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\Cgi.Appmar.Repositories.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Repositories\obj\Debug\net7.0\ref\Cgi.Appmar.Repositories.dll

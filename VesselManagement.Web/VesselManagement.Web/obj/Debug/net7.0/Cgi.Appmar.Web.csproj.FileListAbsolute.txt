@@ -1,0 +1,172 @@
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\appsettings.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.exe
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.deps.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.runtimeconfig.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Humanizer.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Repositories.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Services.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Utils.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Repositories.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Services.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Utils.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.csproj.AssemblyReference.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.AssemblyInfoInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.AssemblyInfo.cs
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.csproj.CoreCompileInputs.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets\msbuild.Cgi.Appmar.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.Cgi.Appmar.Web.props
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Cgi.Appmar.Web.props
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Cgi.Appmar.Web.props
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\scopedcss\bundle\Cgi.Appmar.Web.styles.css
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.csproj.CopyComplete
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\refint\Cgi.Appmar.Web.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.pdb
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.genruntimeconfig.cache
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\ref\Cgi.Appmar.Web.dll
+C:\Users\MEGA 9000X\Documents\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\appsettings.Development.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\appsettings.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.exe
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.deps.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.runtimeconfig.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Web.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Azure.Core.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Azure.Identity.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Humanizer.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.CodeDom.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Interfaces.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Models.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Repositories.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Services.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Utils.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Interfaces.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Models.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Repositories.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Services.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\bin\Debug\net7.0\Cgi.Appmar.Utils.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.csproj.AssemblyReference.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.AssemblyInfoInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.AssemblyInfo.cs
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.csproj.CoreCompileInputs.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets\msbuild.Cgi.Appmar.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.Cgi.Appmar.Web.props
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Cgi.Appmar.Web.props
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Cgi.Appmar.Web.props
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets.build.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\staticwebassets.development.json
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\scopedcss\bundle\Cgi.Appmar.Web.styles.css
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.csproj.CopyComplete
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\refint\Cgi.Appmar.Web.dll
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.pdb
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\Cgi.Appmar.Web.genruntimeconfig.cache
+C:\Git\APPMAR\Cgi.Appmar.Web\Cgi.Appmar.Web\obj\Debug\net7.0\ref\Cgi.Appmar.Web.dll
